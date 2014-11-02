@@ -1,0 +1,83 @@
+ноя 02, 2014 7:27:09 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+Setting system property webdriver.chrome.driver to d:/ruby/Ruby200-x64/lib/ruby/gems/2.0.0/gems/selenium-connect-3.7.1/lib/selenium_connect/../../bin/chromedriver
+Setting system property webdriver.chrome.logfile to d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_as_farmer/chrome.log
+19:27:09.753 INFO - Java: Oracle Corporation 24.45-b08
+19:27:09.753 INFO - OS: Windows 8 6.2 amd64
+19:27:09.815 INFO - v2.41.0, with Core v2.41.0. Built from revision 3192d8a
+19:27:10.081 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+19:27:10.081 INFO - Version Jetty/5.1.x
+19:27:10.081 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+19:27:10.081 INFO - Started HttpContext[/selenium-server,/selenium-server]
+19:27:10.081 INFO - Started HttpContext[/,/]
+19:27:10.143 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1a483edb
+19:27:10.143 INFO - Started HttpContext[/wd,/wd]
+19:27:10.143 INFO - Started SocketListener on 0.0.0.0:4444
+19:27:10.143 INFO - Started org.openqa.jetty.jetty.Server@6d55d434
+19:27:14.580 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, cssSelectorsEnabled=true, browserName=chrome, nativeEvents=false, rotatable=false, takesScreenshot=false, version=, chrome.switches=[--user-data-dir=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_as_farmer/chrome, --enable-logging, --v=1, --log-net-log=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_as_farmer/chrome/net_log.log, --net-log-level=0]}]] at URL: /session)
+19:27:14.596 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, cssSelectorsEnabled=true, browserName=chrome, nativeEvents=false, rotatable=false, takesScreenshot=false, version=, chrome.switches=[--user-data-dir=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_as_farmer/chrome, --enable-logging, --v=1, --log-net-log=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_as_farmer/chrome/net_log.log, --net-log-level=0]}]
+Starting ChromeDriver (v2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e)) on port 3981
+Only local connections are allowed.
+19:27:17.181 INFO - Done: /session
+19:27:25.908 INFO - Executing: [find element: By.xpath: //a["Draw Your First Paddock Now"]] at URL: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/element)
+19:27:27.699 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=38.0.2125.111)
+  (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 105 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'gunk4', ip: '192.168.0.5', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+Session ID: 084e682dc700246b689592b5e36866e4
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\KONSTA~1\AppData\Local\Temp\scoped_dir5128_2987}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=38.0.2125.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+19:27:27.715 WARN - Exception: no such element
+  (Session info: chrome=38.0.2125.111)
+  (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 105 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'gunk4', ip: '192.168.0.5', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+Session ID: 084e682dc700246b689592b5e36866e4
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\KONSTA~1\AppData\Local\Temp\scoped_dir5128_2987}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=38.0.2125.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+19:27:27.871 INFO - Executing: [get window handles] at URL: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/window_handles)
+19:27:27.887 INFO - Done: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/window_handles
+19:27:27.902 INFO - Executing: [switch to window: CDwindow-67F0F8AD-E28A-4873-8B19-9DBEDD25087F] at URL: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/window)
+19:27:27.918 INFO - Done: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/window
+19:27:27.934 INFO - Executing: [get page source] at URL: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/source)
+19:27:27.950 INFO - Done: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/source
+19:27:27.965 INFO - Executing: [take screenshot] at URL: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/screenshot)
+19:27:28.519 INFO - Done: /session/003567d8-19fa-4233-b8d5-39850d0de5ba/screenshot
+19:27:28.535 INFO - Executing: [delete session: 003567d8-19fa-4233-b8d5-39850d0de5ba] at URL: /session/003567d8-19fa-4233-b8d5-39850d0de5ba)
+19:27:29.832 INFO - Done: /session/003567d8-19fa-4233-b8d5-39850d0de5ba
+19:27:30.692 INFO - Checking Resource aliases
+19:27:30.707 INFO - Command request: shutDownSeleniumServer[, ] on session null
+19:27:30.707 INFO - Shutdown command received
+19:27:30.707 INFO - initiating shutdown
+19:27:30.707 INFO - Got result: OK on session null

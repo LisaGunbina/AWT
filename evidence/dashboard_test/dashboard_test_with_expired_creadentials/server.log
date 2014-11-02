@@ -1,0 +1,36 @@
+ноя 02, 2014 6:45:16 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+Setting system property webdriver.chrome.driver to d:/ruby/Ruby200-x64/lib/ruby/gems/2.0.0/gems/selenium-connect-3.7.1/lib/selenium_connect/../../bin/chromedriver
+Setting system property webdriver.chrome.logfile to d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_with_expired_creadentials/chrome.log
+18:45:17.755 INFO - Java: Oracle Corporation 24.45-b08
+18:45:17.757 INFO - OS: Windows 8 6.2 amd64
+18:45:17.793 INFO - v2.41.0, with Core v2.41.0. Built from revision 3192d8a
+18:45:18.149 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+18:45:18.152 INFO - Version Jetty/5.1.x
+18:45:18.154 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+18:45:18.156 INFO - Started HttpContext[/selenium-server,/selenium-server]
+18:45:18.157 INFO - Started HttpContext[/,/]
+18:45:18.300 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@5ac7cee9
+18:45:18.300 INFO - Started HttpContext[/wd,/wd]
+18:45:18.310 INFO - Started SocketListener on 0.0.0.0:4444
+18:45:18.310 INFO - Started org.openqa.jetty.jetty.Server@11ba4552
+18:45:22.212 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, cssSelectorsEnabled=true, browserName=chrome, nativeEvents=false, rotatable=false, takesScreenshot=false, version=, chrome.switches=[--user-data-dir=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_with_expired_creadentials/chrome, --enable-logging, --v=1, --log-net-log=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_with_expired_creadentials/chrome/net_log.log, --net-log-level=0]}]] at URL: /session)
+18:45:22.302 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, cssSelectorsEnabled=true, browserName=chrome, nativeEvents=false, rotatable=false, takesScreenshot=false, version=, chrome.switches=[--user-data-dir=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_with_expired_creadentials/chrome, --enable-logging, --v=1, --log-net-log=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_with_expired_creadentials/chrome/net_log.log, --net-log-level=0]}]
+Starting ChromeDriver (v2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e)) on port 31002
+Only local connections are allowed.
+18:45:30.714 INFO - Done: /session
+18:45:30.747 INFO - Executing: [get window handles] at URL: /session/d0300622-40a4-440d-a03f-b3a47690836a/window_handles)
+18:45:30.766 INFO - Done: /session/d0300622-40a4-440d-a03f-b3a47690836a/window_handles
+18:45:30.776 INFO - Executing: [switch to window: CDwindow-E5F3D95A-E09C-47D0-B434-F27C2E042752] at URL: /session/d0300622-40a4-440d-a03f-b3a47690836a/window)
+18:45:30.789 INFO - Done: /session/d0300622-40a4-440d-a03f-b3a47690836a/window
+18:45:30.802 INFO - Executing: [get page source] at URL: /session/d0300622-40a4-440d-a03f-b3a47690836a/source)
+18:45:31.177 INFO - Done: /session/d0300622-40a4-440d-a03f-b3a47690836a/source
+18:45:31.250 INFO - Executing: [take screenshot] at URL: /session/d0300622-40a4-440d-a03f-b3a47690836a/screenshot)
+18:45:31.662 INFO - Done: /session/d0300622-40a4-440d-a03f-b3a47690836a/screenshot
+18:45:31.681 INFO - Executing: [delete session: d0300622-40a4-440d-a03f-b3a47690836a] at URL: /session/d0300622-40a4-440d-a03f-b3a47690836a)
+18:45:32.901 INFO - Done: /session/d0300622-40a4-440d-a03f-b3a47690836a
+18:45:33.841 INFO - Checking Resource aliases
+18:45:34.122 INFO - Command request: shutDownSeleniumServer[, ] on session null
+18:45:34.124 INFO - Shutdown command received
+18:45:34.126 INFO - initiating shutdown
+18:45:34.126 INFO - Got result: OK on session null

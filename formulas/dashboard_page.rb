@@ -4,6 +4,15 @@ module Formulas
 
 		HOME_LINK = {xpath: '//a["Home"]'}
 		DRAW_BUTTON = {xpath: '//a["Draw Your First Paddock Now"]'}
+
+		#Override chemist setter method to get the data file 
+		def chemist=(value)
+			@chemist = value
+			# Get the data file from user profile
+			catalyze (@chemist.data_file)
+			# Check that the parameters are taken from catalyst file
+			puts catalyst.some_key
+		end
 		
 		def initialize(driver) 
 			super	
@@ -16,7 +25,9 @@ module Formulas
 		end
 		
 		def visit
-			LoginPage.new(driver).login
+			login = LoginPage.new(driver)
+			logon.chemist = @chemist
+			login.login
 		end
 			
 	    private
@@ -24,6 +35,5 @@ module Formulas
 	      def verify_page
 	       	displayed?(HOME_LINK).should == true
 	      end
-
 	end
 end

@@ -1,0 +1,127 @@
+[0.803][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chrome.switches": [ "--user-data-dir=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_with_expired_creadentials/chrome", "--enable-logging", "--v=1", "--log-net-log=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_with_expired_creadentials/chrome/net_log.log", "--net-log-level=0" ],
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "nativeEvents": false,
+      "platform": "ANY",
+      "rotatable": false,
+      "takesScreenshot": false,
+      "version": ""
+   }
+}
+[0.808][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.814][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.853][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension="C:\Users\KONSTA~1\AppData\Local\Temp\scoped_dir1204_17109\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12740 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\KONSTA~1\AppData\Local\Temp\scoped_dir1204_9984" data:,
+[1.562][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "userDataDir": "C:\\Users\\KONSTA~1\\AppData\\Local\\Temp\\scoped_dir1204_9984"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "38.0.2125.111",
+   "webStorageEnabled": true
+}
+[1.857][INFO]: COMMAND GetWindows {
+
+}
+[1.859][INFO]: RESPONSE GetWindows [ "CDwindow-E5F3D95A-E09C-47D0-B434-F27C2E042752" ]
+[1.891][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-E5F3D95A-E09C-47D0-B434-F27C2E042752"
+}
+[1.892][INFO]: RESPONSE SwitchToWindow
+[1.913][INFO]: COMMAND GetSource {
+
+}
+[2.234][INFO]: Waiting for pending navigations...
+[2.268][INFO]: Done waiting for pending navigations
+[2.280][INFO]: Waiting for pending navigations...
+[2.280][INFO]: Done waiting for pending navigations
+[2.280][INFO]: RESPONSE GetSource "\u003Chtml xmlns=\"http://www.w3.org/1999/xhtml\">\u003Chead>\u003C/head>\u003Cbody>\u003Cpre style=\"word-wrap: break-word; white-space: pre-wrap;\">\u003C/pre>\u003Ciframe src=\"about:blank\">\u003C/iframe>\u003C/body>\u003C/html>"
+[2.360][INFO]: COMMAND Screenshot {
+
+}
+[2.360][INFO]: Waiting for pending navigations...
+[2.360][INFO]: Done waiting for pending navigations
+[2.367][INFO]: Waiting for pending navigations...
+[2.384][INFO]: Done waiting for pending navigations
+[2.759][INFO]: Waiting for pending navigations...
+[2.759][INFO]: Done waiting for pending navigations
+[2.759][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAA6EAAAOjCAIAAADF8ZV2AAAR2UlEQVR4nO3WwQkAIBDAMHX/nc8lBKEkE/TZPTMLAABCzu8AAAB4zOMCAFDjcQEAqPG4AADUeFwAAGo8LgAANR4XAIAajwsAQI3HBQCgxuMCAFDjcQEAqPG4AADUeFwAAGo8LgAANR4XAIAajwsAQ..."
+[2.791][INFO]: COMMAND Quit {
+
+}
+[2.874][INFO]: RESPONSE Quit

@@ -1,0 +1,137 @@
+[1.209][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chrome.switches": [ "--user-data-dir=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_as_farmer/chrome", "--enable-logging", "--v=1", "--log-net-log=d:/ruby/projects/AWT/./evidence//dashboard_test/dashboard_test_as_farmer/chrome/net_log.log", "--net-log-level=0" ],
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "nativeEvents": false,
+      "platform": "ANY",
+      "rotatable": false,
+      "takesScreenshot": false,
+      "version": ""
+   }
+}
+[1.225][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.225][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.241][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension="C:\Users\KONSTA~1\AppData\Local\Temp\scoped_dir5128_17606\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12572 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\KONSTA~1\AppData\Local\Temp\scoped_dir5128_2987" data:,
+[1.791][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "userDataDir": "C:\\Users\\KONSTA~1\\AppData\\Local\\Temp\\scoped_dir5128_2987"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "38.0.2125.111",
+   "webStorageEnabled": true
+}
+[10.663][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[\"Draw Your First Paddock Now\"]"
+}
+[10.678][INFO]: Waiting for pending navigations...
+[10.720][INFO]: Done waiting for pending navigations
+[10.763][INFO]: Waiting for pending navigations...
+[10.763][INFO]: Done waiting for pending navigations
+[10.763][INFO]: RESPONSE FindElement no such element
+  (Session info: chrome=38.0.2125.111)
+[12.610][INFO]: COMMAND GetWindows {
+
+}
+[12.626][INFO]: RESPONSE GetWindows [ "CDwindow-67F0F8AD-E28A-4873-8B19-9DBEDD25087F" ]
+[12.642][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-67F0F8AD-E28A-4873-8B19-9DBEDD25087F"
+}
+[12.658][INFO]: RESPONSE SwitchToWindow
+[12.674][INFO]: COMMAND GetSource {
+
+}
+[12.674][INFO]: Waiting for pending navigations...
+[12.674][INFO]: Done waiting for pending navigations
+[12.689][INFO]: Waiting for pending navigations...
+[12.689][INFO]: Done waiting for pending navigations
+[12.689][INFO]: RESPONSE GetSource "\u003Chtml xmlns=\"http://www.w3.org/1999/xhtml\">\u003Chead>\u003C/head>\u003Cbody>\u003Cpre style=\"word-wrap: break-word; white-space: pre-wrap;\">\u003C/pre>\u003C/body>\u003C/html>"
+[12.720][INFO]: COMMAND Screenshot {
+
+}
+[12.720][INFO]: Waiting for pending navigations...
+[12.720][INFO]: Done waiting for pending navigations
+[12.720][INFO]: Waiting for pending navigations...
+[12.756][INFO]: Done waiting for pending navigations
+[13.259][INFO]: Waiting for pending navigations...
+[13.259][INFO]: Done waiting for pending navigations
+[13.259][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAA6EAAAOjCAIAAADF8ZV2AAAR2UlEQVR4nO3WwQkAIBDAMHX/nc8lBKEkE/TZPTMLAABCzu8AAAB4zOMCAFDjcQEAqPG4AADUeFwAAGo8LgAANR4XAIAajwsAQI3HBQCgxuMCAFDjcQEAqPG4AADUeFwAAGo8LgAANR4XAIAajwsAQ..."
+[13.275][INFO]: COMMAND Quit {
+
+}
+[13.400][INFO]: RESPONSE Quit
